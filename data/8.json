@@ -1,0 +1,27 @@
+{
+    "name": "KatS",
+    "color": "orange",
+    "qualifications": {
+        "811": {
+            "dependencies": ["401", "152"]
+        },
+        "830": {
+            "dependencies": ["811", "421", ["712", "715"]]
+        },
+        "831": {
+            "dependencies": ["830"]
+        },
+        "832": {
+            "dependencies": ["831"]
+        },
+        "833": {
+            "dependencies": ["832"]
+        },
+        "881": {
+            "dependencies": ["831", "180.1"]
+        },
+        "891": {
+            "dependencies": ["881", "832", "190.1"]
+        }
+    }
+}

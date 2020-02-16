@@ -1,0 +1,57 @@
+{
+    "name": "S/RS",
+    "color": "yellow",
+    "qualifications": {
+        "111": {
+            "dependencies": []
+        },
+        "121": {
+            "dependencies": [] 
+        },
+        "122": {
+            "dependencies": [] 
+        },
+        "123": {
+            "dependencies": [] 
+        },
+        "140": {
+            "dependencies": ["123"]
+        },
+        "151": {
+            "dependencies": []
+        },
+        "152": {
+            "dependencies": []
+        },
+        "153": {
+            "dependencies": ["152"]
+        },
+        "161": {
+            "dependencies": ["151"]
+        },
+        "171": {
+            "dependencies": ["151"]
+        },
+        "172": {
+            "dependencies": ["151"]
+        },
+        "180.1": {
+            "dependencies": []
+        },
+        "181": {
+            "dependencies": ["182", "183"]
+        },
+        "182": {
+            "dependencies": ["152", "180.1", "171"]
+        },
+        "183": {
+            "dependencies": ["152", "180.1", "172"]
+        },
+        "190.1": {
+            "dependencies": []
+        },
+        "190": {
+            "dependencies": ["181", "190.1"]
+        }
+    }
+}

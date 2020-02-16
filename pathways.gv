@@ -1,0 +1,184 @@
+digraph G {
+	123 -> 140
+	152 -> 153
+	151 -> 161
+	151 -> 171
+	151 -> 172
+	182 -> 181
+	183 -> 181
+	152 -> 182
+	180.1 -> 182
+	171 -> 182
+	152 -> 183
+	180.1 -> 183
+	172 -> 183
+	181 -> 190
+	190.1 -> 190
+	subgraph "cluster_S/RS" {
+		label="S/RS"
+		111 [fillcolor=yellow style=filled]
+		121 [fillcolor=yellow style=filled]
+		122 [fillcolor=yellow style=filled]
+		123 [fillcolor=yellow style=filled]
+		140 [fillcolor=yellow style=filled]
+		151 [fillcolor=yellow style=filled]
+		152 [fillcolor=yellow style=filled]
+		153 [fillcolor=yellow style=filled]
+		161 [fillcolor=yellow style=filled]
+		171 [fillcolor=yellow style=filled]
+		172 [fillcolor=yellow style=filled]
+		180.1 [fillcolor=yellow style=filled]
+		181 [fillcolor=yellow style=filled]
+		182 [fillcolor=yellow style=filled]
+		183 [fillcolor=yellow style=filled]
+		190.1 [fillcolor=yellow style=filled]
+		190 [fillcolor=yellow style=filled]
+	}
+	401 -> 402
+	151 -> 402
+	401 -> 403
+	151 -> 403
+	401 -> 404
+	151 -> 404
+	401 -> 405
+	401 -> 411
+	152 -> 411
+	402 -> 411
+	403 -> 411
+	404 -> 411
+	"411_['331', '341']" -> 411
+	331 -> "411_['331', '341']"
+	341 -> "411_['331', '341']"
+	411 -> 412
+	401 -> 421
+	"421_['411', '613', '811', '1011']" -> 421
+	411 -> "421_['411', '613', '811', '1011']"
+	613 -> "421_['411', '613', '811', '1011']"
+	811 -> "421_['411', '613', '811', '1011']"
+	1011 -> "421_['411', '613', '811', '1011']"
+	411 -> 431
+	421 -> 431
+	"431_['711', '712', '715']" -> 431
+	711 -> "431_['711', '712', '715']"
+	712 -> "431_['711', '712', '715']"
+	715 -> "431_['711', '712', '715']"
+	180.1 -> 481
+	431 -> 481
+	190.1 -> 491
+	481 -> 491
+	subgraph cluster_WRD {
+		label=WRD
+		401 [fillcolor=red style=filled]
+		402 [fillcolor=red style=filled]
+		403 [fillcolor=red style=filled]
+		404 [fillcolor=red style=filled]
+		405 [fillcolor=red style=filled]
+		411 [fillcolor=red style=filled]
+		"411_['331', '341']" [label=OR shape=square]
+		412 [fillcolor=red style=filled]
+		421 [fillcolor=red style=filled]
+		"421_['411', '613', '811', '1011']" [label=OR shape=square]
+		431 [fillcolor=red style=filled]
+		"431_['711', '712', '715']" [label=OR shape=square]
+		481 [fillcolor=red style=filled]
+		491 [fillcolor=red style=filled]
+	}
+	152 -> 511
+	401 -> 511
+	402 -> 511
+	404 -> 511
+	152 -> 512
+	401 -> 512
+	402 -> 512
+	404 -> 512
+	511 -> 513
+	512 -> 513
+	511 -> 581
+	180.1 -> 581
+	512 -> 582
+	180.1 -> 582
+	581 -> 591
+	190.1 -> 591
+	582 -> 592
+	190.1 -> 592
+	subgraph cluster_Boot {
+		label=Boot
+		511 [fillcolor=blue style=filled]
+		512 [fillcolor=blue style=filled]
+		513 [fillcolor=blue style=filled]
+		581 [fillcolor=blue style=filled]
+		582 [fillcolor=blue style=filled]
+		591 [fillcolor=blue style=filled]
+		592 [fillcolor=blue style=filled]
+	}
+	"711_['401', '411']" -> 711
+	401 -> "711_['401', '411']"
+	411 -> "711_['401', '411']"
+	710 -> 721
+	710 -> 722
+	"741_['711', '712', '715']" -> 741
+	711 -> "741_['711', '712', '715']"
+	712 -> "741_['711', '712', '715']"
+	715 -> "741_['711', '712', '715']"
+	"742_['711', '712', '715']" -> 742
+	711 -> "742_['711', '712', '715']"
+	712 -> "742_['711', '712', '715']"
+	715 -> "742_['711', '712', '715']"
+	"743_['711', '712', '715']" -> 743
+	711 -> "743_['711', '712', '715']"
+	712 -> "743_['711', '712', '715']"
+	715 -> "743_['711', '712', '715']"
+	180.1 -> 781
+	712 -> 781
+	180.1 -> 782
+	715 -> 782
+	781 -> 791
+	190.1 -> 791
+	190.1 -> 792
+	subgraph cluster_IuK {
+		label=IuK
+		710 [fillcolor=grey style=filled]
+		711 [fillcolor=grey style=filled]
+		"711_['401', '411']" [label=OR shape=square]
+		712 [fillcolor=grey style=filled]
+		715 [fillcolor=grey style=filled]
+		721 [fillcolor=grey style=filled]
+		722 [fillcolor=grey style=filled]
+		741 [fillcolor=grey style=filled]
+		"741_['711', '712', '715']" [label=OR shape=square]
+		742 [fillcolor=grey style=filled]
+		"742_['711', '712', '715']" [label=OR shape=square]
+		743 [fillcolor=grey style=filled]
+		"743_['711', '712', '715']" [label=OR shape=square]
+		781 [fillcolor=grey style=filled]
+		782 [fillcolor=grey style=filled]
+		791 [fillcolor=grey style=filled]
+		792 [fillcolor=grey style=filled]
+	}
+	401 -> 811
+	152 -> 811
+	811 -> 830
+	421 -> 830
+	"830_['712', '715']" -> 830
+	712 -> "830_['712', '715']"
+	715 -> "830_['712', '715']"
+	830 -> 831
+	831 -> 832
+	832 -> 833
+	831 -> 881
+	180.1 -> 881
+	881 -> 891
+	832 -> 891
+	190.1 -> 891
+	subgraph cluster_KatS {
+		label=KatS
+		811 [fillcolor=orange style=filled]
+		830 [fillcolor=orange style=filled]
+		"830_['712', '715']" [label=OR shape=square]
+		831 [fillcolor=orange style=filled]
+		832 [fillcolor=orange style=filled]
+		833 [fillcolor=orange style=filled]
+		881 [fillcolor=orange style=filled]
+		891 [fillcolor=orange style=filled]
+	}
+}

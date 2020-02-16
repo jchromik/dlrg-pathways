@@ -1,0 +1,45 @@
+{
+    "name": "IuK",
+    "color": "grey",
+    "qualifications": {
+        "710": {
+            "dependencies": [] 
+        },
+        "711": {
+            "dependencies": [["401", "411"]]
+        },
+        "712": {
+            "dependencies": [] 
+        },
+        "715": {
+            "dependencies": [] 
+        },
+        "721": {
+            "dependencies": ["710"] 
+        },
+        "722": {
+            "dependencies": ["710"] 
+        },
+        "741": {
+            "dependencies": [["711", "712", "715"]] 
+        },
+        "742": {
+            "dependencies": [["711", "712", "715"]] 
+        },
+        "743": {
+            "dependencies": [["711", "712", "715"]] 
+        },
+        "781": {
+            "dependencies": ["180.1", "712"] 
+        },
+        "782": {
+            "dependencies": ["180.1", "715"] 
+        },
+        "791": {
+            "dependencies": ["781", "190.1"] 
+        },
+        "792": {
+            "dependencies": ["190.1"] 
+        }
+    }
+}

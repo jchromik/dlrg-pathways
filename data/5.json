@@ -1,0 +1,27 @@
+{
+    "name": "Boot",
+    "color": "blue",
+    "qualifications": {
+        "511": {
+            "dependencies": ["152", "401", "402", "404"]
+        },
+        "512": {
+            "dependencies": ["152", "401", "402", "404"]
+        },
+        "513": {
+            "dependencies": ["511", "512"]
+        },
+        "581": {
+            "dependencies": ["511", "180.1"]
+        },
+        "582": {
+            "dependencies": ["512", "180.1"]
+        },
+        "591": {
+            "dependencies": ["581", "190.1"]
+        },
+        "592": {
+            "dependencies": ["582", "190.1"]
+        }
+    }
+}
