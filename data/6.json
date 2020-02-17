@@ -1,0 +1,66 @@
+{
+    "name": "Tauchen",
+    "color": "cyan",
+    "qualifications": {
+        "612": {
+            "dependencies": ["152", "161", "401", "403"]
+        },
+        "613": {
+            "dependencies": ["152", "161", "401", "403"]
+        },
+        "631": {
+            "dependencies": ["421", "613"]
+        },
+        "641": {
+            "dependencies": ["401"]
+        },
+        "682": {
+            "dependencies": ["613", "631", ["331", "341"], "152", "180.1"]
+        },
+        "691": {
+            "dependencies": ["613", "190.1", "682"]
+        },
+        "614": {
+            "dependencies": ["151", "161"]
+        },
+        "615": {
+            "dependencies": ["152"]
+        },
+        "616": {
+            "dependencies": ["152"]
+        },
+        "621": {
+            "dependencies": ["152"]
+        },
+        "622": {
+            "dependencies": ["152"]
+        },
+        "623": {
+            "dependencies": ["152"]
+        },
+        "624": {
+            "dependencies": ["152"]
+        },
+        "625": {
+            "dependencies": ["152"]
+        },
+        "626": {
+            "dependencies": ["152"]
+        },
+        "627": {
+            "dependencies": ["152"]
+        },
+        "628": {
+            "dependencies": ["152", "615"]
+        },
+        "681": {
+            "dependencies": ["180.1", "613"]
+        },
+        "683": {
+            "dependencies": ["613"]
+        },
+        "692": {
+            "dependencies": ["631", "691"]
+        }
+    }
+}
