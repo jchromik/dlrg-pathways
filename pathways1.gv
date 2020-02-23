@@ -1,0 +1,80 @@
+digraph G1 {
+	{
+		rank=same
+		111
+	}
+	{
+		rank=same
+		121
+		122
+		123
+		121 -> 122 [style=invis]
+	}
+	{
+		rank=same
+		140
+	}
+	{
+		rank=same
+		151
+		152
+		153
+		151 -> 152 [style=invis]
+	}
+	{
+		rank=same
+		161
+	}
+	{
+		rank=same
+		171
+		172
+		171 -> 172 [style=invis]
+	}
+	{
+		rank=same
+		180.1
+		181
+		182
+		183
+		180.1 -> 181 [style=invis]
+		182 -> 183 [style=invis]
+	}
+	{
+		rank=same
+		190.1
+		191
+		190.1 -> 191 [style=invis]
+	}
+	111 -> 121 [style=invis]
+	111 -> 122 [style=invis]
+	111 -> 123 [style=invis]
+	140 -> 151 [style=invis]
+	140 -> 152 [style=invis]
+	140 -> 153 [style=invis]
+	161 -> 171 [style=invis]
+	161 -> 172 [style=invis]
+	180.1 -> 190.1 [style=invis]
+	180.1 -> 191 [style=invis]
+	181 -> 190.1 [style=invis]
+	181 -> 191 [style=invis]
+	182 -> 190.1 [style=invis]
+	182 -> 191 [style=invis]
+	183 -> 190.1 [style=invis]
+	183 -> 191 [style=invis]
+	123 -> 140
+	152 -> 153
+	151 -> 161
+	151 -> 171
+	151 -> 172
+	182 -> 181
+	183 -> 181
+	152 -> 182
+	180.1 -> 182
+	171 -> 182
+	152 -> 183
+	180.1 -> 183
+	172 -> 183
+	181 -> 191
+	190.1 -> 191
+}

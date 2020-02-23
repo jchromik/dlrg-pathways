@@ -1,0 +1,116 @@
+digraph G6 {
+	{
+		rank=same
+		612
+		613
+		612 -> 613 [style=invis]
+	}
+	{
+		rank=same
+		631
+	}
+	{
+		rank=same
+		641
+	}
+	{
+		rank=same
+		682
+	}
+	{
+		rank=same
+		691
+	}
+	{
+		rank=same
+		614
+		615
+		616
+		614 -> 615 [style=invis]
+	}
+	{
+		rank=same
+		621
+		622
+		623
+		624
+		625
+		626
+		627
+		628
+		621 -> 622 [style=invis]
+		623 -> 624 [style=invis]
+		625 -> 626 [style=invis]
+		627 -> 628 [style=invis]
+	}
+	{
+		rank=same
+		681
+		683
+		681 -> 683 [style=invis]
+	}
+	{
+		rank=same
+		692
+	}
+	612 -> 631 [style=invis]
+	613 -> 631 [style=invis]
+	641 -> 682 [style=invis]
+	691 -> 614 [style=invis]
+	691 -> 615 [style=invis]
+	691 -> 616 [style=invis]
+	621 -> 681 [style=invis]
+	621 -> 683 [style=invis]
+	622 -> 681 [style=invis]
+	622 -> 683 [style=invis]
+	623 -> 681 [style=invis]
+	623 -> 683 [style=invis]
+	624 -> 681 [style=invis]
+	624 -> 683 [style=invis]
+	625 -> 681 [style=invis]
+	625 -> 683 [style=invis]
+	626 -> 681 [style=invis]
+	626 -> 683 [style=invis]
+	627 -> 681 [style=invis]
+	627 -> 683 [style=invis]
+	628 -> 681 [style=invis]
+	628 -> 683 [style=invis]
+	152 -> 612
+	161 -> 612
+	401 -> 612
+	403 -> 612
+	152 -> 613
+	161 -> 613
+	401 -> 613
+	403 -> 613
+	421 -> 631
+	613 -> 631
+	401 -> 641
+	613 -> 682
+	631 -> 682
+	331 -> 682
+	341 -> 682
+	152 -> 682
+	180.1 -> 682
+	613 -> 691
+	190.1 -> 691
+	682 -> 691
+	151 -> 614
+	161 -> 614
+	152 -> 615
+	152 -> 616
+	152 -> 621
+	152 -> 622
+	152 -> 623
+	152 -> 624
+	152 -> 625
+	152 -> 626
+	152 -> 627
+	152 -> 628
+	615 -> 628
+	180.1 -> 681
+	613 -> 681
+	613 -> 683
+	631 -> 692
+	691 -> 692
+}

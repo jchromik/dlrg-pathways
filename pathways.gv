@@ -12,9 +12,9 @@ digraph G {
 	152 -> 183
 	180.1 -> 183
 	172 -> 183
-	181 -> 190
-	190.1 -> 190
-	subgraph "luster_S/RS" {
+	181 -> 191
+	190.1 -> 191
+	subgraph "cluster_S/RS" {
 		label="S/RS"
 		111 [fillcolor=yellow style=filled]
 		121 [fillcolor=yellow style=filled]
@@ -32,7 +32,7 @@ digraph G {
 		182 [fillcolor=yellow style=filled]
 		183 [fillcolor=yellow style=filled]
 		190.1 [fillcolor=yellow style=filled]
-		190 [fillcolor=yellow style=filled]
+		191 [fillcolor=yellow style=filled]
 	}
 	312 -> 321
 	"322_['312', '313', '315']" -> 322
@@ -67,7 +67,7 @@ digraph G {
 	190.1 -> 391
 	382 -> 392
 	391 -> 392
-	subgraph luster_San {
+	subgraph cluster_San {
 		label=San
 		312 [fillcolor=purple style=filled]
 		313 [fillcolor=purple style=filled]
@@ -124,7 +124,7 @@ digraph G {
 	431 -> 481
 	190.1 -> 491
 	481 -> 491
-	subgraph luster_WRD {
+	subgraph cluster_WRD {
 		label=WRD
 		401 [fillcolor=red style=filled]
 		402 [fillcolor=red style=filled]
@@ -159,7 +159,7 @@ digraph G {
 	190.1 -> 591
 	582 -> 592
 	190.1 -> 592
-	subgraph luster_Boot {
+	subgraph cluster_Boot {
 		label=Boot
 		511 [fillcolor=blue style=filled]
 		512 [fillcolor=blue style=filled]
@@ -208,7 +208,7 @@ digraph G {
 	613 -> 683
 	631 -> 692
 	691 -> 692
-	subgraph luster_Tauchen {
+	subgraph cluster_Tauchen {
 		label=Tauchen
 		612 [fillcolor=cyan style=filled]
 		613 [fillcolor=cyan style=filled]
@@ -256,7 +256,7 @@ digraph G {
 	781 -> 791
 	190.1 -> 791
 	190.1 -> 792
-	subgraph luster_IuK {
+	subgraph cluster_IuK {
 		label=IuK
 		710 [fillcolor=grey style=filled]
 		711 [fillcolor=grey style=filled]
@@ -291,7 +291,7 @@ digraph G {
 	881 -> 891
 	832 -> 891
 	190.1 -> 891
-	subgraph luster_KatS {
+	subgraph cluster_KatS {
 		label=KatS
 		811 [fillcolor=orange style=filled]
 		830 [fillcolor=orange style=filled]
@@ -336,7 +336,7 @@ digraph G {
 	1051 -> 1083
 	1083 -> 1091
 	190.1 -> 1091
-	subgraph luster_SR {
+	subgraph cluster_SR {
 		label=SR
 		1011 [fillcolor=green style=filled]
 		1012 [fillcolor=green style=filled]

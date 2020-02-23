@@ -1,0 +1,70 @@
+digraph G7 {
+	{
+		rank=same
+		710
+		711
+		712
+		715
+		710 -> 711 [style=invis]
+		712 -> 715 [style=invis]
+	}
+	{
+		rank=same
+		721
+		722
+		721 -> 722 [style=invis]
+	}
+	{
+		rank=same
+		741
+		742
+		743
+		741 -> 742 [style=invis]
+	}
+	{
+		rank=same
+		781
+		782
+		781 -> 782 [style=invis]
+	}
+	{
+		rank=same
+		791
+		792
+		791 -> 792 [style=invis]
+	}
+	710 -> 721 [style=invis]
+	710 -> 722 [style=invis]
+	711 -> 721 [style=invis]
+	711 -> 722 [style=invis]
+	712 -> 721 [style=invis]
+	712 -> 722 [style=invis]
+	715 -> 721 [style=invis]
+	715 -> 722 [style=invis]
+	741 -> 781 [style=invis]
+	741 -> 782 [style=invis]
+	742 -> 781 [style=invis]
+	742 -> 782 [style=invis]
+	743 -> 781 [style=invis]
+	743 -> 782 [style=invis]
+	401 -> 711
+	411 -> 711
+	710 -> 721
+	710 -> 722
+	711 -> 741
+	712 -> 741
+	715 -> 741
+	711 -> 742
+	712 -> 742
+	715 -> 742
+	711 -> 743
+	712 -> 743
+	715 -> 743
+	180.1 -> 781
+	712 -> 781
+	180.1 -> 782
+	715 -> 782
+	781 -> 791
+	190.1 -> 791
+	190.1 -> 792
+}
