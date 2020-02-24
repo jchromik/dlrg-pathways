@@ -1,105 +1,115 @@
 digraph G3 {
-	{
-		rank=same
-		312
-		313
-		315
-		312 -> 313 [style=invis]
-	}
-	{
-		rank=same
-		321
-		322
-		321 -> 322 [style=invis]
-	}
-	{
-		rank=same
-		331
-		332
-		331 -> 332 [style=invis]
-	}
-	{
-		rank=same
-		341
-	}
-	{
-		rank=same
-		351
-		352
-		353
-		351 -> 352 [style=invis]
-	}
-	{
-		rank=same
-		371
-		372
-		371 -> 372 [style=invis]
-	}
-	{
-		rank=same
-		381
-		382
-		383
-		385
-		381 -> 382 [style=invis]
-		383 -> 385 [style=invis]
-	}
-	{
-		rank=same
-		391
-		392
-		391 -> 392 [style=invis]
-	}
-	312 -> 321 [style=invis]
-	312 -> 322 [style=invis]
-	313 -> 321 [style=invis]
-	313 -> 322 [style=invis]
-	315 -> 321 [style=invis]
-	315 -> 322 [style=invis]
-	331 -> 341 [style=invis]
-	332 -> 341 [style=invis]
-	351 -> 371 [style=invis]
-	351 -> 372 [style=invis]
-	352 -> 371 [style=invis]
-	352 -> 372 [style=invis]
-	353 -> 371 [style=invis]
-	353 -> 372 [style=invis]
-	381 -> 391 [style=invis]
-	381 -> 392 [style=invis]
-	382 -> 391 [style=invis]
-	382 -> 392 [style=invis]
-	383 -> 391 [style=invis]
-	383 -> 392 [style=invis]
-	385 -> 391 [style=invis]
-	385 -> 392 [style=invis]
-	312 -> 321
-	312 -> 322
-	313 -> 322
-	315 -> 322
-	312 -> 331
-	331 -> 332
-	331 -> 341
-	332 -> 341
-	312 -> 351
-	351 -> 352
-	331 -> 352
-	351 -> 353
-	352 -> 353
-	332 -> 353
-	331 -> 371
-	332 -> 371
-	381 -> 372
-	382 -> 372
-	371 -> 381
-	332 -> 382
-	381 -> 382
-	353 -> 383
+	label=San
+	"322_['312', '313', '315']" -> 322
+	312 -> "322_['312', '313', '315']"
+	313 -> "322_['312', '313', '315']"
+	315 -> "322_['312', '313', '315']"
+	"341_['331', '332']" -> 341
+	331 -> "341_['331', '332']"
+	332 -> "341_['331', '332']"
+	"372_['381', '382']" -> 372
+	381 -> "372_['381', '382']"
+	382 -> "372_['381', '382']"
 	180.1 -> 383
-	313 -> 385
-	381 -> 385
-	381 -> 391
-	372 -> 391
 	190.1 -> 391
-	382 -> 392
-	391 -> 392
+	subgraph cluster {
+		label=""
+		{
+			rank=same
+			312
+			313
+			315
+			312 -> 313 [style=invis]
+		}
+		{
+			rank=same
+			321
+			322
+			321 -> 322 [style=invis]
+		}
+		{
+			rank=same
+			331
+			332
+			331 -> 332 [style=invis]
+		}
+		{
+			rank=same
+			341
+		}
+		{
+			rank=same
+			351
+			352
+			353
+			351 -> 352 [style=invis]
+		}
+		{
+			rank=same
+			371
+			372
+			371 -> 372 [style=invis]
+		}
+		{
+			rank=same
+			381
+			382
+			383
+			385
+			381 -> 382 [style=invis]
+			383 -> 385 [style=invis]
+		}
+		{
+			rank=same
+			391
+			392
+			391 -> 392 [style=invis]
+		}
+		312 -> 321 [style=invis]
+		312 -> 322 [style=invis]
+		313 -> 321 [style=invis]
+		313 -> 322 [style=invis]
+		315 -> 321 [style=invis]
+		315 -> 322 [style=invis]
+		331 -> 341 [style=invis]
+		332 -> 341 [style=invis]
+		351 -> 371 [style=invis]
+		351 -> 372 [style=invis]
+		352 -> 371 [style=invis]
+		352 -> 372 [style=invis]
+		353 -> 371 [style=invis]
+		353 -> 372 [style=invis]
+		381 -> 391 [style=invis]
+		381 -> 392 [style=invis]
+		382 -> 391 [style=invis]
+		382 -> 392 [style=invis]
+		383 -> 391 [style=invis]
+		383 -> 392 [style=invis]
+		385 -> 391 [style=invis]
+		385 -> 392 [style=invis]
+		312 -> 321
+		"322_['312', '313', '315']" [label=OR shape=square]
+		312 -> 331
+		331 -> 332
+		"341_['331', '332']" [label=OR shape=square]
+		312 -> 351
+		351 -> 352
+		331 -> 352
+		351 -> 353
+		352 -> 353
+		332 -> 353
+		331 -> 371
+		332 -> 371
+		"372_['381', '382']" [label=OR shape=square]
+		371 -> 381
+		332 -> 382
+		381 -> 382
+		353 -> 383
+		313 -> 385
+		381 -> 385
+		381 -> 391
+		372 -> 391
+		382 -> 392
+		391 -> 392
+	}
 }

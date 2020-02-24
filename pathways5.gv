@@ -1,29 +1,5 @@
 digraph G5 {
-	{
-		rank=same
-		511
-		512
-		513
-		511 -> 512 [style=invis]
-	}
-	{
-		rank=same
-		581
-		582
-		581 -> 582 [style=invis]
-	}
-	{
-		rank=same
-		591
-		592
-		591 -> 592 [style=invis]
-	}
-	511 -> 581 [style=invis]
-	511 -> 582 [style=invis]
-	512 -> 581 [style=invis]
-	512 -> 582 [style=invis]
-	513 -> 581 [style=invis]
-	513 -> 582 [style=invis]
+	label=Boot
 	152 -> 511
 	401 -> 511
 	402 -> 511
@@ -32,14 +8,42 @@ digraph G5 {
 	401 -> 512
 	402 -> 512
 	404 -> 512
-	511 -> 513
-	512 -> 513
-	511 -> 581
 	180.1 -> 581
-	512 -> 582
 	180.1 -> 582
-	581 -> 591
 	190.1 -> 591
-	582 -> 592
 	190.1 -> 592
+	subgraph cluster {
+		label=""
+		{
+			rank=same
+			511
+			512
+			513
+			511 -> 512 [style=invis]
+		}
+		{
+			rank=same
+			581
+			582
+			581 -> 582 [style=invis]
+		}
+		{
+			rank=same
+			591
+			592
+			591 -> 592 [style=invis]
+		}
+		511 -> 581 [style=invis]
+		511 -> 582 [style=invis]
+		512 -> 581 [style=invis]
+		512 -> 582 [style=invis]
+		513 -> 581 [style=invis]
+		513 -> 582 [style=invis]
+		511 -> 513
+		512 -> 513
+		511 -> 581
+		512 -> 582
+		581 -> 591
+		582 -> 592
+	}
 }
